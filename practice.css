@@ -1,0 +1,178 @@
+.container {
+    display: flexbox;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: +1;
+
+
+}
+
+.logo {
+    position: absolute;
+}
+
+.logostyle {
+    margin-left: 4cm;
+}
+
+.titlel1 {
+    padding-left: 80px;
+}
+
+.titlel2 {
+    font-size: 30px;
+}
+
+.titlel3 {
+    color: red;
+}
+
+nav {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(244, 84, 84);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav option {
+    background-color: rgb(243, 190, 17);
+}
+
+.nav_a2 {
+    border: 0px;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+    padding-right: 10px;
+}
+
+.nav_a3 {
+    border: 0px;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+    padding-right: 10px;
+    background-size: 10px;
+}
+
+.nav_a3_option {
+    color: red;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+}
+
+.nav_a4 {
+    border: 0px;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+}
+
+.nav_a5 {
+    border: 0px;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+}
+
+.nav_a6 {
+    border: 0px;
+    background-color: rgb(244, 84, 84);
+    color: aliceblue;
+}
+
+.after_nav {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 9;
+}
+
+.poster_content {
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.poster_content1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.side_bar {
+    width: 350px;
+    margin-left: 1cm;
+    background-color: rgb(243, 190, 17);
+    margin-top: -2cm;
+    z-index: 9;
+    text-align: center;
+}
+
+.side_barT {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    color: rgb(244, 84, 84);
+}
+
+.side_bar_ul1 {
+    background-color: rgb(243, 190, 17);
+    width: auto;
+    color: brown;
+}
+
+.side_bar_ul2 {
+    width: auto;
+    background-color: rgb(243, 190, 17);
+}
+
+.content_sideBar {
+    z-index: 9;
+    margin-top: -2cm;
+    background-color: #f1f1f1;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.content_title {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content_area {
+    font-size: 12pt;
+    font-family: arial, helvetica, sans-serif;
+}

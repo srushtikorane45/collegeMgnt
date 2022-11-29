@@ -3,6 +3,7 @@
 
 <head>
     <title>Project</title>
+
     <link rel="stylesheet" href="practice.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,95 +17,57 @@
         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Reem+Kufi+Ink&family=Sofia&display=swap"
         rel="stylesheet">
     <style>
-        .container {
-            display: flexbox;
-            font-family: 'Quicksand', sans-serif;
-        }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: 200px;
-            background-color: #f1f1f1;
-        }
-
-        li a {
-            display: block;
-            color: #000;
-            padding: 8px 16px;
-            text-decoration: none;
-        }
-
-        /* Change the link color on hover */
-        li a:hover {
-            background-color: #555;
-            color: white;
-        }
-
-        .container2 {
-
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            z-index: +1;
-
-
-        }
     </style>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div style="position:absolute"><img src="logo.jpg" height="120px" width="120px"></div>
-            <div style="margin-left: 4cm;">
-                <p><span style="padding-left:80px;">Bansilal Ramnath Agarwal Charitable Trust's</span><br><span
-                        style="font-size:30px;">Vishwakarma Institute of Technology</span>
+            <div class="logo"><img src="logo.jpg" height="120px" width="120px"></div>
+            <div class="logostyle">
+                <p><span class="titlel1">Bansilal Ramnath Agarwal Charitable Trust's</span><br>
+                    <span class="titlel2">Vishwakarma Institute of Technology</span>
                     <hr>
                     <span>(An Autonomous Institute affiliated to Savitribai Phule Pune University)</span><br><span
-                        style="color:red;"><b>An ISO 9001-2015 Certified Institute Accredited with 'A' Grade by
-                            NAAC</b></span></p>
+                        class="titlel3"><b>An ISO 9001-2015 Certified Institute Accredited with 'A' Grade by
+                            NAAC</b></span>
+                </p>
             </div>
         </div>
     </header>
-    <nav style="text-align: center;
-color:aliceblue;
-background-color:rgb(244, 84, 84);
-padding-top:10px;
-padding-bottom:10px;">
+    <nav>
         <a><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a><select style="border:0px;background-color:rgb(244, 84, 84) ;color: aliceblue; padding-right:10px;">
-                <option style="background-color:rgb(243, 190, 17) ;">ABOUT US</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Management</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Director's View</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Vision and Mission</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Programme</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Awards</option>
-                <option style="background-color:rgb(243, 190, 17) ;">Disclosure and Policies</option>
+        <a><select class="nav_a2">
+                <option>ABOUT US</option>
+                <option>Management</option>
+                <option>Director's View</option>
+                <option>Vision and Mission</option>
+                <option>Programme</option>
+                <option>Awards</option>
+                <option>Disclosure and Policies</option>
             </select></a>
-        <a><select
-                style="border:0px; background-color:rgb(244, 84, 84) ;color: aliceblue; padding-right:10px;background-size: 10px;">
+        <a><select class="nav_a3">
                 <option>ADMISSIONS</option>
                 <option>First Year B.Tech</option>
                 <option>Direct Second Year (DSY) B.Tech</option>
                 <option>First Year M.Tech</option>
                 <option>International Cell</option>
                 <option>Hostel</option>
-                <option style="color: red; background-color:rgb(244, 84, 84) ;color: aliceblue;">INTERNATIONAL
+                <option class="nav_a3_option">INTERNATIONAL
                     ADMISSIONS</option>
                 <option>phD Admissions</option>
                 <option>Institute Bank Details</option>
                 <option>DTE Circular FRA Notice</option>
             </select></a>
-        <a><select style="border:0px; background-color:rgb(244, 84, 84) ;color: aliceblue;">
+        <a><select class="nav_a4">
                 <option>ACADEMICS</option>
                 <option>From Dean Academic Dicks</option>
                 <option>Academic board/Council</option>
                 <option>Academic calender</option>
                 <option>Academic Structure</option>
             </select></a>
-        <a><select style="border:0px; background-color:rgb(244, 84, 84) ;color: aliceblue;">
+        <a><select class="nav_a5">
                 <option>DEPARTMENTS</option>
                 <option>Civil Engineering</option>
                 <option>Computer Engineering</option>
@@ -114,83 +77,89 @@ padding-bottom:10px;">
                 <option>Engineering & Applied Sciences</option>
                 <option>AI and DS</option>
             </select></a>
-        <a><select style="border:0px; background-color:rgb(244, 84, 84) ;color: aliceblue;">
-                <option>PLACEMENT</option>
-                <option>From Desk of TPO</option>
+        <a><select class="nav_a6">
+                <option href="recruitment1.html">PLACEMENT</option>
                 <option>Our Recruiters</option>
                 <option>Placement Summary</option>
                 <option>Training</option>
                 <option>Placement Report</option>
             </select></a>
     </nav>
-    <div style="position: relative;
-    text-align: center;
-    color: white;
-    z-index:9;">
-        <img src="C:\Users\Srushti\Desktop\Assignments\admission-banner.jpg" width="1263px" >
-        <div style="font-family: 'Roboto Slab', serif;
-        position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:30px;">
+    <div class="after_nav">
+        <img src="C:\Users\Srushti\Desktop\Assignments\admission-banner.jpg" width="1263px">
+        <div class="poster_content">
             <p>ABOUT US</p>
         </div>
-        <div style="position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:12px;
-  font-family: 'Noto Sans JP', sans-serif;"><a>Home&nbsp;&nbsp;&nbsp;&nbsp;/</a>
+        <div class="poster_content1"><a>Home&nbsp;&nbsp;&nbsp;&nbsp;/</a>
             <a>&nbsp;&nbsp;&nbsp;About Us &nbsp;&nbsp;&nbsp;&nbsp;/</a>
             <a>&nbsp;&nbsp;&nbsp;Management&nbsp;&nbsp;&nbsp;&nbsp;/</a>
-            <a>&nbsp;&nbsp;&nbsp;About VIIT</a></div>
+            <a>&nbsp;&nbsp;&nbsp;About VIIT</a>
+        </div>
     </div>
 
     <div class="container2">
-        <div style="width:350px;
-        margin-left:1cm;
-        background-color:rgb(243, 190, 17);
-        margin-top: -2cm;
-        z-index: 9;
-        text-align: center;">
-            <h3 style=" font-family: 'Noto Sans JP', sans-serif; font-size: 30px; color:rgb(244, 84, 84);"> About Us</h3><hr><br>
-            <ul style=" background-color:rgb(243, 190, 17); width: auto;color: brown;">
-                
-                <li >Management<hr><br>
-                  <ul style="width:auto ; background-color:rgb(243, 190, 17);">
-                    <li>About Trust</li><hr><br>
-                    <li>Chairman's View</li><hr><br>
-                    <li>Board of Management</li><hr><br>
-                    <li>About VIIT</li><hr><br>
-                  </ul>
+        <div class="side_bar">
+            <h3 class="side_barT"> About Us</h3>
+            <hr><br>
+            <ul class="side_bar_ul1">
+
+                <li>Management
+                    <hr><br>
+                    <ul class="side_bar_ul2">
+                        <li>About Trust</li>
+                        <hr><br>
+                        <li>Chairman's View</li>
+                        <hr><br>
+                        <li>Board of Management</li>
+                        <hr><br>
+                        <li>About VIIT</li>
+                        <hr><br>
+                    </ul>
         </div>
-        <div style="z-index: 9; margin-top:-2cm;background-color: #f1f1f1; width: fit-content; height: fit-content;padding-left: 1cm; padding-right: 1cm;font-family: 'Noto Sans JP', sans-serif;">
-            <h3 style="font-size:25px;font-family: 'Roboto Slab', serif;"> ABOUT VIIT</h3><hr>
-            <p style="font-size: 12pt;font-family: arial, helvetica, sans-serif;"> Vishwakarma Institute ofInformation Technology (VIIT) was established in 2002 by Bansilal Ramnath Agarwal Charitable Trust (BRACT), Pune, Maharashtra,in order to produce engineering graduates capable of accepting challenges in the new environment of technical advancements. It was formally inaugurated by Dr.Anil Kakodkar, Chairman, Atomic Energy Commission, Governmentof India, on 11th October 2002. During past sixteen years VIIT has developed into an institute recognized amongst few top ranking engineering colleges in Pune, Maharashtra, India and is certified as ISO 9001:2015 certified institute. It is a self-financed Autonomous Institute of Govt. of Maharashtra, affiliated to Savitribai Phule Pune University (SPPU) formerly known as University of Pune (Identification No. PU/PN/Engg./184/ 2002-2003) and is recognized and approved by All India Council for Technical Education (AICTE), New Delhi and by the Government of Maharashtra. As a result, the institute established a strong foothold in engineering education. VIIT has obtained ISO certification in 2006 and re-certification in 2009, 2012 and 2015. All  UG programs are Accredited by NBA till 2021.
- 
-                VIIT also received NAAC accreditation with 'A' grade in the year 2016 . VIIT was awarded as ‘Outstanding Engineering Institute West Zone’. In surveys conducted by various agencies like Competition Success Review, Times, Career 360 Magazine etc, VIIT is always ranked  in a few top positions.UGC, the State Government as well as SPPU has conferred Academic Autonomy to VIIT from Academic Year 2017-18.</p>
+        <div class="content_sideBar">
+            <h3 class="content_title"> ABOUT VIIT</h3>
+            <hr>
+            <p class="content_area"> Vishwakarma Institute ofInformation Technology (VIIT) was established in 2002 by
+                Bansilal Ramnath Agarwal Charitable Trust (BRACT), Pune, Maharashtra,in order to produce engineering
+                graduates capable of accepting challenges in the new environment of technical advancements. It was
+                formally inaugurated by Dr.Anil Kakodkar, Chairman, Atomic Energy Commission, Governmentof India, on
+                11th October 2002. During past sixteen years VIIT has developed into an institute recognized amongst few
+                top ranking engineering colleges in Pune, Maharashtra, India and is certified as ISO 9001:2015 certified
+                institute. It is a self-financed Autonomous Institute of Govt. of Maharashtra, affiliated to Savitribai
+                Phule Pune University (SPPU) formerly known as University of Pune (Identification No. PU/PN/Engg./184/
+                2002-2003) and is recognized and approved by All India Council for Technical Education (AICTE), New
+                Delhi and by the Government of Maharashtra. As a result, the institute established a strong foothold in
+                engineering education. VIIT has obtained ISO certification in 2006 and re-certification in 2009, 2012
+                and 2015. All UG programs are Accredited by NBA till 2021.
+
+                VIIT also received NAAC accreditation with 'A' grade in the year 2016 . VIIT was awarded as ‘Outstanding
+                Engineering Institute West Zone’. In surveys conducted by various agencies like Competition Success
+                Review, Times, Career 360 Magazine etc, VIIT is always ranked in a few top positions.UGC, the State
+                Government as well as SPPU has conferred Academic Autonomy to VIIT from Academic Year 2017-18.</p>
         </div>
 
     </div>
     <footer>
         <div style="display:flex; padding-left:12cm;">
-        <p style="align-items:center;"><span style="padding-right:1cm;">Connect With Us</span>
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/viit_pune" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/viitpu/?ref=bookmarks" target="_blank" id="nav_p"><i class="fa fa-facebook-square fa-lg"
-                aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/channel/UCAkJjvfT8-h0Ex4E2P-Utfg" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true" target="_blank" id="nav_p"><i class="fa fa-linkedin-square fa-lg"
-                    aria-hidden="true"></i></a>
-        
-            <a href="https://www.instagram.com/viitpuneofficial/" target="_blank" id="nav_p"><i class="fa fa-instagram fa-lg"
-                    aria-hidden="true"></i></a>
-            
-                    
-        </p>
+            <p style="align-items:center;"><span style="padding-right:1cm;">Connect With Us</span>
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-envelope fa-lg"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/viit_pune" target="_blank"><i class="fa fa-twitter fa-lg"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/viitpu/?ref=bookmarks" target="_blank" id="nav_p"><i
+                        class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCAkJjvfT8-h0Ex4E2P-Utfg" target="_blank"><i
+                        class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true" target="_blank" id="nav_p"><i
+                        class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
 
-    </div>
+                <a href="https://www.instagram.com/viitpuneofficial/" target="_blank" id="nav_p"><i
+                        class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+
+
+            </p>
+
+        </div>
     </footer>
 
 
